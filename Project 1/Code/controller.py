@@ -48,6 +48,8 @@ class controller():
         phidot = vehicle.state.phid
         delta = vehicle.state.delta
 
+        #Vx = 6
+
         #Set predetermined future time horizon and get closest corresponding trajectory node
         time_horizon = 20
         _, closest_index = closest_node(X,Y,traj)
